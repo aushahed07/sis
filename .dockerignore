@@ -1,0 +1,9 @@
+.git
+.github
+.gradle
+.idea
+*.iml
+src
+build/*
+!build/libs/
+README.md

@@ -1,0 +1,13 @@
+spring:
+    application:
+      name: sis
+    profiles:
+      active: local
+    datasource:
+      username: admin
+      password: aa1234567890
+      driver-class-name: org.postgresql.Driver
+    jpa:
+      hibernate:
+        ddl-auto: update
+      show-sql: true
